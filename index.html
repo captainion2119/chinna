@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-main">
+        <div class="container">
+            <div class="envelope-wrapper">
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="text">
+                            <strong>Dhanviiiii.</strong>
+                            <p>You make my heart race and my world brighter, oh my the hug, its like time stops. Just the thought of you fills my day with joy, and your smile is my favorite. Thank you for being you & being <strong>Mine ♥</strong></p>
+                        </div>
+                    </div>
+                    <div class="heart"></div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-heart"></div>
+    </div>
+
+    <script>
+        const envelope = document.querySelector(".envelope-wrapper");
+        const heart = document.querySelector(".heart");
+        heart.addEventListener("click", ()=>{
+            envelope.classList.toggle("flap")
+        })
+    </script>
+</body>
+</html>
